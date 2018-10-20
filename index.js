@@ -141,4 +141,4 @@ client.on('message', message =&gt; {
   }
 });
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
